@@ -10,7 +10,6 @@ const getData = () => {
 
       id.innerHTML = idHtml
       adviceData.innerHTML = adviceHtml
-      console.log(advice)
     })
 }
 

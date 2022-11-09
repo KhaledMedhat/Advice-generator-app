@@ -10,10 +10,16 @@ const getData = () => {
 
       id.innerHTML = idHtml
       adviceData.innerHTML = adviceHtml
+      animation()
     })
 }
+const container = document.getElementById('fsfs')
+const animation = () => {
+  container.style.animation = 'fadeIn 2s'
+}
 
-const button = document.querySelector('.button')
+const button = document.querySelector('.button-dice')
 button.addEventListener('click', (e) => {
   getData()
+  container.style.animation = ''
 })

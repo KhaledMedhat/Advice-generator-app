@@ -5,7 +5,7 @@ const getData = () => {
       const id = document.querySelector('.id')
       const adviceData = document.querySelector('.advice')
 
-      const idHtml = `ADIVCE #${advice.slip.id}`
+      const idHtml = `ADVICE #${advice.slip.id}`
       const adviceHtml = `“${advice.slip.advice}”`
 
       id.innerHTML = idHtml

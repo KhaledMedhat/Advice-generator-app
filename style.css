@@ -5,7 +5,8 @@
 body {   
     font-family: 'Manrope', sans-serif;
     background-color: hsl(218, 23%, 16%);
-  
+   
+
 }
 
 .container{
@@ -14,13 +15,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    align-items: center; 
     flex-direction: column;
-    align-items: center;
-    gap: 30px;
     background-color: hsl(217, 19%, 24%);
-    width: 592px;
+    width: 40%;
+    gap: 30px;
     border-radius: 12px;
- 
+    text-align: center;
 }
 
 .id { 
@@ -32,12 +33,12 @@ body {
 .advice{
     font-size: 28px;
     color:  hsl(193, 38%, 86%);
-   width: 492px;
+    width: 92%;
     
 }
 
 .dash{
-    width: 400px;
+    width: 70%;
     position: relative;
     top: 20px;
 }
@@ -77,3 +78,47 @@ body {
     100% { opacity: 1; }
   }
   
+
+  @media (max-width:280px) {
+        .container {
+              width: 80%;
+        }
+  }
+
+  @media (max-width:375px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width:414px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width:540px) {
+    .container {
+        width: 80%;
+    }
+}
+
+
+@media (max-width:912px) {
+    .container {
+        width: 70%;
+    }
+}
+
+
+@media (max-width:768px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (min-width:913px) and (max-width:1200px) {
+    .container {
+        width: 60%;
+    }
+}
